@@ -1,0 +1,8 @@
+# Preparing Modman
+app/code/community/JR/* app/code/community/JR/
+lib/JR/*  lib/JR/
+lib/mink.phar  lib/mink.phar
+shell/mink.php  shell/mink.php
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Cache cleared"
